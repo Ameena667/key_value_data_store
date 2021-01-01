@@ -30,7 +30,7 @@ public class DataStoreConsumer {
 			e.printStackTrace();
 		}
 		System.out.println("====================AFTER WAIT===============");
-		jsonObject.put("age", "25");
+		jsonObject.put("age", "20");
 		System.out.println(myDataStore.create("1", jsonObject, 10));// success
 		System.out.println(myDataStore.create("1", jsonObject));// failure
 		System.out.println(myDataStore.create("1", jsonObject, 10));// failure
