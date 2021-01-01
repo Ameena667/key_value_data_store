@@ -75,12 +75,13 @@ Operation failed due to key already available
 
 ==========================READ===============================
 
-{"firstName":"Ameena","lastName":"Shaik","address:"Guntur"}
+{"firstName":"Ameena","lastName":"Shaik","address":"Guntur",age:"20"}
+{"firstName":"Ameena","lastName":"Shaik","address":"Guntur"}
 Operation failed due to key not available
 Operation failed due to key length exceeded the limit(32chars)
 ====================AFTER WAIT===============
 Operation failed due to key not available
-{"firstName":"Ameena","lastName":"Shaik","address:"Guntur"}
+{"firstName":"Ameena","lastName":"Shaik","address":"Guntur"}
 
 ========================DELETE ==============================
 Operation failed due to key not available
